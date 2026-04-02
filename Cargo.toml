@@ -1,0 +1,13 @@
+[package]
+name = "ntfs-rw"
+version = "0.1.0"
+edition = "2021"
+description = "no_std NTFS filesystem with read/write support"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/suhteevah/ntfs-rw"
+keywords = ["ntfs", "filesystem", "no_std", "embedded", "bare-metal"]
+categories = ["no-std", "filesystem", "embedded"]
+readme = "README.md"
+
+[dependencies]
+log = { version = "0.4", default-features = false }
